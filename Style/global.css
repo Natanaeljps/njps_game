@@ -69,6 +69,7 @@ img{
 #main{
     display: flex;
     justify-content:space-around;
+    justify-content: center;
 
 }
 
@@ -83,6 +84,7 @@ img{
 
 
 /*PORTFOLIO*/
+
 .portfolio{
     background-color: brown;
     width: 58%;
@@ -90,28 +92,19 @@ img{
 
     border: .5rem solid white;
     border-radius: .5rem;
-
-    display: flex;
-    justify-items: center;
 }
 
-.container{
-    width: 100%;
+.portfolio_game{
+    background-image: url(https://img.freepik.com/vetores-gratis/cena-de-verao-de-arte-de-pixel-plana_23-2149457883.jpg?w=740&t=st=1670558882~exp=1670559482~hmac=f3c133621c820f18690221269407bbd6614b5fdce36ba3cc6770fdd86547ede3);
 
-}
-
-.project_game{
-    background-color: aqua;
     width: 90%;
     height: 10rem;
-    margin-top: 1rem;
-    border-radius: .5rem;
-    
-    
-}
 
-.project_web{
-    background-color: blueviolet;
+    border-radius: .5rem;
+}
+    
+.portfolio_web{
+    background-color: rgb(43, 226, 162);
     width: 90%;
     height: 10rem;
     margin-top: 1rem;
