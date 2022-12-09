@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --font-title: 600 3rem 'Source Sans Pro', sans-serif;
+    --font-description: 400 1.3rem 'Source Sans Pro', sans-serif;
+}
+
+
+
+body{
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-chuva-abstrata-pixel_23-2148365108.jpg?w=740&t=st=1670552187~exp=1670552787~hmac=fedb7eb9c21042585583686b93776683d76ec8905dc29d6758d5f09a2f260b79);
+    background-size: 100%;
+    margin: 1rem;
+}
+
+
+/*HEADER*/
+
+#header{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.header{
+    background: url(https://img.freepik.com/vetores-premium/pixel-art-fundo-do-ceu-noturno-com-nuvens-e-estrelas-para-o-jogo-8-bits_360488-668.jpg?w=826);
+    width: 50rem;
+    height: 15rem;
+    border-radius: 1rem;
+    border: .5rem solid white;   
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.image{
+    border-radius: 6rem;
+    width: 12rem;
+    height: 12rem;    
+    border: .5rem solid white;   
+}
+
+img{
+    border-radius: 5.5rem;
+    width: 11rem;
+    height: 11rem; 
+}
+
+.name{    
+    text-align: center;
+    font: var(--font-title);
+    color: rgb(66, 167, 174);
+}
+
+.description{   
+    text-align: center;
+    font: var(--font-description);
+    color: aliceblue;
+}
+
+/*MAIN*/
+
+#main{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.menu{
+    background-color: blueviolet;
+    width: 20%;
+    height: 50rem;
+
+    border: .5rem solid white;
+    border-radius: .5rem;
+}
+
+
+/*PORTFOLIO*/
+.portfolio{
+    background-color: brown;
+    width: 58%;
+    height: 50rem;
+
+    border: .5rem solid white;
+    border-radius: .5rem;
+
+    display: flex;
+    justify-items: center;
+}
+
+.container{
+    width: 100%;
+
+}
+
+.project_game{
+    background-color: aqua;
+    width: 90%;
+    height: 10rem;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    
+    
+}
+
+.project_web{
+    background-color: blueviolet;
+    width: 90%;
+    height: 10rem;
+    margin-top: 1rem;
+    border-radius: .5rem;
+}
+
+.project{
+    background-color: darkgray;
+}
+
+
+.ads{
+    background-color: blue;
+    width: 20%;
+    height: 50rem;
+    border: .5rem solid white;
+    border-radius: .5rem;
+}
