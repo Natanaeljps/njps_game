@@ -10,6 +10,8 @@
     --font-title: 600 3rem 'Source Sans Pro', sans-serif;
     --font-description: 400 1.3rem 'Source Sans Pro', sans-serif;
     --font-menu: 300 1.5rem 'Source Sans Pro', sans-serif;
+    --font-title-card: 600 1.5rem 'Kanit', sans-serif;
+    --font-description-card: 300 1.3rem 'Kanit', sans-serif;
 }
 
 
@@ -43,13 +45,9 @@ body{
 
 
 .img_profile{
-    border-radius: 5.5rem;
-    width: 11rem;
-    height: 11rem; 
-}
-
-.text_profile{
-    margin-right: 2%  ;
+    border-radius: 5rem;
+    width: 10rem;
+    height: 10rem; 
 }
 
 .name{    
@@ -77,7 +75,7 @@ body{
 .menu button{
     border-radius: 2rem;
     border: none;
-    background-color: rgba(178, 210, 198, 0.521);
+    background-color: rgba(178, 210, 198, 0.378);
     font: var(--font-menu);
     padding: 0 1.5rem;
     text-align: center;
@@ -94,4 +92,16 @@ button:hover{
 .text{
     background-color: rgba(150, 255, 255, 0.285);
     margin: 5% 10%;
+}
+
+/*============CARDS==============*/
+
+.title_card{
+    font: var(--font-title-card);
+    color: rgb(102, 221, 228);
+}
+
+.description_card{
+    font: var(--font-description-card);
+    color: white;
 }
