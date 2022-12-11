@@ -105,3 +105,31 @@ button:hover{
     font: var(--font-description-card);
     color: white;
 }
+
+/*======CARDS======*/
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.card{
+    display: grid;
+    justify-items: center;
+
+    background-color: rgba(0, 0, 0, 0.178);
+    border-radius: 5%;
+
+    width: 30%;
+    height: auto;
+    padding: .5%;
+}
+
+.img_card{
+    width: 97%;
+    height: auto;
+
+    border-radius: 5%;
+}
