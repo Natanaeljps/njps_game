@@ -17,7 +17,7 @@
 
 
 body{
-    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-chuva-abstrata-pixel_23-2148365108.jpg?w=740&t=st=1670552187~exp=1670552787~hmac=fedb7eb9c21042585583686b93776683d76ec8905dc29d6758d5f09a2f260b79);
+    background-color:  rgb(72, 56, 87);;
     background-size: 100%;
     background-attachment: fixed;
 }
@@ -132,4 +132,37 @@ button:hover{
     height: auto;
 
     border-radius: 5%;
+}
+
+
+/*=========EFECT==========*/
+
+.efects li{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255, 0.15);
+    display: block;
+    position: absolute;
+    bottom: -40px;
+
+    animation: efect 5s infinite;
+    /*animation-direction: alternate;*/
+}
+
+
+@keyframes efect {
+    
+    from{
+        opacity: 0;
+        transform: translateY(-1000px) rotate(960deg);
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+        transform: translateY(100)  ;
+    }
 }
