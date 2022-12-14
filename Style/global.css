@@ -145,7 +145,7 @@ button:hover{
     position: absolute;
     bottom: -40px;
 
-    animation: efect 5s infinite;
+    animation: efect 2s infinite;
     /*animation-direction: alternate;*/
 }
 
