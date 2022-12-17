@@ -6,9 +6,9 @@ for (let i = 0; i < 11; i++){
     const random = (min, max) => Math.random() * (max - min) + min;
     
     
-    const size = Math.floor(random(10 ,100));
+    const size = Math.floor(random(25 ,50));
     const position = random(1, 99);
-    const delay = random(5, 0.15);
+    const delay = random(2, 0.15);
     const duration = random(5, 8);
 
     const radius = random(50, 80);
